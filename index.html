@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Basic Weather App</title>
+</head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<body>
+
+<div id="pageTitle">What's the Weather?</div>
+
+<div id="searchDiv">
+<form id="formPopup" class="inputForm" onSubmit="submitFunc(); return false;">
+    <label for="search">Enter City:</label>
+    <input type="text" id="search" value="" name="search" placeholder="Enter City">
+    <input type="button" value="Submit" id="submit">
+</form>
+</div>
+
+<div id="errorPopup">Please Enter a Valid City</div>
+
+<div id="content">
+    <div id="title">Weather</div>
+    <div id="temp">Temperature (F)</div>
+    <div id="tempVal"></div>
+    <div id="desc">Description</div>
+    <div id="descVal"></div>
+    <div id="humidity">Humidity (%)</div>
+    <div id="humidityVal"></div>
+    <div id= "wind">Wind Speed (mph)</div>
+    <div id="windVal"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
