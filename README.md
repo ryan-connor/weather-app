@@ -1,1 +1,1 @@
-Basic Weather App that calls the openweathermap.org api to access weather based on input city.
+Basic Weather App that calls the openweathermap.org api to access weather based on input city. Note that the api key is kept in a separate config file that was not uploaded to github.

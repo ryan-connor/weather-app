@@ -1,6 +1,9 @@
+let api = config.apiKey;
+console.log(api);
+
 const getWeather = async function (city) {
     try {
-    let response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=2893c6b5a4200b7958e442b620f3e631&units=imperial`, {mode: "cors"})
+    let response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${api}&units=imperial`, {mode: "cors"})
     let responseJson = await response.json(); //get json object of the api call
     let temperature = responseJson.main.temp;
     let weatherDesc = responseJson.weather[0].description; 
