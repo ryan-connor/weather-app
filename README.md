@@ -1,3 +1,9 @@
+<h4 align="center">
+<img alt="Weather App Gif" src="demo/WeatherApp.gif" height="250px">
+<img alt="Weather App Image" src="demo/WeatherApp.png" height="250px">
+</h4>
+
+
 ## Weather App
 
 Weather App that uses [`openweathermap.org`](https://openweathermap.org/api) API.
